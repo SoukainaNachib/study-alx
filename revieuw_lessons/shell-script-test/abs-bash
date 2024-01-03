@@ -1,0 +1,13 @@
+#!/bin/bash
+
+echo "enter un nombre"
+read number
+
+if [ $number -lt 0 ]
+then 
+echo "the abs is : " `expr $number \* -1`
+elif [ $number -ge 0 ]
+then
+	echo "the ab is:" $number
+fi
+

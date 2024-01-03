@@ -1,0 +1,10 @@
+#!/bin/bash
+# les variable sont float
+
+x=10.6
+y=20.10
+echo "1==>" echo $c `echo $x + $y | bc`
+
+echo "2==>" echo $c `echo $1 + $2 | bc`
+
+

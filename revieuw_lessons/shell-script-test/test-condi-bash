@@ -1,0 +1,24 @@
+#!/bin/bash
+#-eq =
+#-lt <
+#-gt >
+#-le <=
+#-ge >=
+#-nq !=
+
+echo "plz entrer un nombre"
+read n1
+
+if [ $n1 -lt 0 ]
+then
+	echo " nombre est negative "
+elif [ $n1 -gt 0 ]
+then
+	echo "le nombre est positive "
+
+else 
+	echo "le nombre est zero"
+
+fi
+
+
